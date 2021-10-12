@@ -1,8 +1,8 @@
 <template>
-  <div class="card" style="width: 18rem;">
+  <div class="card shadow-sm body-rounded" style="width: 18rem;">
     <img :src="imagen" class="card-img-top" alt="">
     <div class="card-body">
-      <h5 class="card-title">{{ nombre }}</h5>x
+      <h5 class="fw-bold text-center card-footer">{{ nombre }}</h5>
     </div>
   </div>
 </template>
